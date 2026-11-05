@@ -1,0 +1,1591 @@
+{
+  "CarChoices": [
+    {
+      "CarId": "FA-18C_hornet",
+      "CarModel": "FA-18C_hornet",
+      "GameCode": "DCS",
+      "IsSet": true
+    }
+  ],
+  "ShowDefaultPreset": false,
+  "ProfilePresets": [],
+  "FineBoosterSettings": {
+    "IsEnabled": false,
+    "SmallMovementBoost": 3.0,
+    "MaximumBoostedVelocity": 500.0,
+    "ReturnSpeedScale": 1.5,
+    "AllowedDriftFactor": 2.0,
+    "Gain": 100.0
+  },
+  "ActivePresetCode": null,
+  "Revisions": [],
+  "ProfileSettings": {
+    "GlobalSmoothing": 0.0,
+    "Version": 2,
+    "CategoryGains": {
+      "MotionGlobal": {
+        "Gain": 100.0
+      },
+      "MotionPrimaryPlatform": {
+        "Gain": 75.0
+      },
+      "MotionExtraAxisSurge": {
+        "Gain": 75.0
+      },
+      "MotionExtraAxisTractionLoss": {
+        "Gain": 100.0
+      },
+      "MotionExtraAxisSway": {
+        "Gain": 75.0
+      },
+      "Haptic": {
+        "Gain": 100.0
+      },
+      "BeltTensioner": {
+        "Gain": 100.0
+      }
+    },
+    "ContinuousAngleSettings": {
+      "RecoverySpeed": 100.0
+    },
+    "CenterOfRotationOffset": {
+      "CustomCenterOfRotation": false
+    },
+    "ActuatorStrokeLimitAndOffsetOverride": {
+      "IsEnabled": false,
+      "HeaveOffset": 0.0,
+      "EnableHeaveOffset": false,
+      "EnableActuatorStrokeLimit": false,
+      "ActuatorsStroke": 130.0,
+      "ActuatorsStrokeLimit": 99999.0
+    },
+    "MotionGain": 75.0,
+    "TractionLossGain": 100.0,
+    "HapticsGain": 100.0,
+    "BeltTensionerGain": 100.0,
+    "BeltRemoveGearChangeArtefacts": false,
+    "BeltRemoveGearChangeArtefactsDelay": 400,
+    "BeltRemoveGearChangeArtefactsRate": 50.0,
+    "RemoveGearChangeArtefacts": true,
+    "RemoveGearChangeArtefactsDelay": 800,
+    "RemoveGearChangeArtefactsRate": 70.0,
+    "RemoveFlightTouchArtefacts": false,
+    "RemoveFlightTouchArtefactsDelay": 800,
+    "RemoveFlightTouchArtefactsRate": 95.0,
+    "BeltRemoveFlightTouchArtefacts": true,
+    "BeltRemoveFlightTouchArtefactsDelay": 800,
+    "BeltRemoveFlightTouchArtefactsRate": 95.0,
+    "ShowRevisionsModule": true,
+    "LowSpeedAccelerationsDampening": false,
+    "LowSpeedAccelerationsDampeningSpeed": 80.0,
+    "FlightOnGroundDampening": false,
+    "PitSpeedLimiterDampening": true,
+    "RemovePitArtefactsArtefacts": true,
+    "CrashDetectionAccelerations": false,
+    "CrashDetectionAccelerationsDeltaMode": false,
+    "CrashDetectionAccelerationsIgnorePositiveHeave": false,
+    "CrashDetectionAccelerationThreshold": 100.0,
+    "CrashDetectionAngles": true,
+    "CrashDetectionSound": false,
+    "CrashDetectionAnglesThreshold": 15.0,
+    "CrashDetectionAccelerationsDuration": 2000.0,
+    "CrashDetectionAccelerationsRate": 100.0,
+    "CrashDetectionAnglesDuration": 2000.0
+  },
+  "HasFocusedEffects": false,
+  "Effects": [
+    {
+      "SyncWithParentEffect": false,
+      "TypeName": "PitchEffect",
+      "Settings": {
+        "UseTrackProfilerAdjustment": false,
+        "MaxInputRangeNegative": 90.0,
+        "MaxInputRangePositive": 90.0,
+        "MaxOutputRangeNegative": 20.0,
+        "MaxOutputRangePositive": 20.0,
+        "SeparatePositiveNegative": false,
+        "SeparateScalingRange": {
+          "IsEnabled": false,
+          "Positive": {
+            "Input": 90.0,
+            "Output": 20.0
+          },
+          "Negative": {
+            "Input": 90.0,
+            "Output": 20.0
+          }
+        },
+        "WashoutSettings": {
+          "EnableWashout": false,
+          "FilterAdded": true,
+          "EnableAdapativeWashout": false,
+          "SoftValue": {},
+          "StrongValue": {},
+          "ExtremeValue": {},
+          "WashoutMultiplierMode": 0
+        },
+        "EnableDynamicRangeCompression": false,
+        "AccelerationFilter": {
+          "FilterAdded": true,
+          "Enabled": false,
+          "Acceleration": 830.35714285714278,
+          "AccelerationTimeIncrement": 0.1
+        },
+        "SoftBounds": false,
+        "SoftBoundRange": 15.0,
+        "Smoothing": 0.0,
+        "CorrectionCurve": {
+          "GammaFilter": {
+            "GammaValue": 1.0,
+            "Threshold": 0,
+            "MinimumValue": 0,
+            "DeadZoneSmoothing": 40.0,
+            "FilterType": "GammaFilter"
+          },
+          "IsEnabled": false,
+          "FilterAdded": true
+        },
+        "Filter": {
+          "GammaValue": 1.0,
+          "Threshold": 0,
+          "MinimumValue": 0,
+          "DeadZoneSmoothing": 40.0,
+          "FilterType": "GammaFilter"
+        },
+        "PostProcessingEnabled": false,
+        "MaxInputRange": 90.0,
+        "MaxOutputRange": 25.0,
+        "ScalingRange": {
+          "Input": 90.0,
+          "Output": 25.0
+        },
+        "Gain": 50.0,
+        "IsEnabled": true
+      }
+    },
+    {
+      "SyncWithParentEffect": false,
+      "TypeName": "PitchRateEffect",
+      "Settings": {
+        "MaxInputRangeNegative": 60.0,
+        "MaxInputRangePositive": 30.0,
+        "MaxOutputRangeNegative": 17.0,
+        "MaxOutputRangePositive": 17.0,
+        "SeparatePositiveNegative": true,
+        "SeparateScalingRange": {
+          "IsEnabled": true,
+          "Positive": {
+            "Input": 30.0,
+            "Output": 17.0
+          },
+          "Negative": {
+            "Input": 60.0,
+            "Output": 17.0
+          }
+        },
+        "WashoutSettings": {
+          "EnableWashout": false,
+          "FilterAdded": true,
+          "EnableAdapativeWashout": false,
+          "SoftValue": {},
+          "StrongValue": {},
+          "ExtremeValue": {},
+          "WashoutMultiplierMode": 0
+        },
+        "EnableDynamicRangeCompression": false,
+        "AccelerationFilter": {
+          "FilterAdded": true,
+          "Enabled": false,
+          "Acceleration": 525.0,
+          "AccelerationTimeIncrement": 0.0902
+        },
+        "SoftBounds": false,
+        "SoftBoundRange": 25.0,
+        "Smoothing": 0.0,
+        "CorrectionCurve": {
+          "GammaFilter": {
+            "GammaValue": 1.0,
+            "Threshold": 3,
+            "MinimumValue": 0,
+            "DeadZoneSmoothing": 40.0,
+            "FilterType": "GammaFilter"
+          },
+          "IsEnabled": false,
+          "FilterAdded": true
+        },
+        "Filter": {
+          "GammaValue": 1.0,
+          "Threshold": 3,
+          "MinimumValue": 0,
+          "DeadZoneSmoothing": 40.0,
+          "FilterType": "GammaFilter"
+        },
+        "PostProcessingEnabled": false,
+        "MaxInputRange": 60.0,
+        "MaxOutputRange": 17.0,
+        "ScalingRange": {
+          "Input": 60.0,
+          "Output": 17.0
+        },
+        "Gain": 100.0,
+        "IsEnabled": true
+      }
+    },
+    {
+      "SyncWithParentEffect": false,
+      "TypeName": "RollEffect",
+      "Settings": {
+        "EnableDynamicRangeCompression": false,
+        "AccelerationFilter": {
+          "FilterAdded": true,
+          "Enabled": false,
+          "Acceleration": 525.0,
+          "AccelerationTimeIncrement": 0.0902
+        },
+        "WashoutSettings": {
+          "EnableWashout": true,
+          "FilterAdded": true,
+          "EnableAdapativeWashout": false,
+          "SoftValue": {},
+          "StrongValue": {},
+          "ExtremeValue": {},
+          "WashoutMultiplierMode": 0
+        },
+        "Washout": 50.0,
+        "EnableWashout": true,
+        "SoftBounds": false,
+        "SoftBoundRange": 50.0,
+        "Smoothing": 0.0,
+        "CorrectionCurve": {
+          "GammaFilter": {
+            "GammaValue": 1.0,
+            "Threshold": 0,
+            "MinimumValue": 0,
+            "DeadZoneSmoothing": 40.0,
+            "FilterType": "GammaFilter"
+          },
+          "IsEnabled": false,
+          "FilterAdded": true
+        },
+        "Filter": {
+          "GammaValue": 1.0,
+          "Threshold": 0,
+          "MinimumValue": 0,
+          "DeadZoneSmoothing": 40.0,
+          "FilterType": "GammaFilter"
+        },
+        "PostProcessingEnabled": false,
+        "MaxInputRange": 180.0,
+        "MaxOutputRange": 25.0,
+        "ScalingRange": {
+          "Input": 180.0,
+          "Output": 25.0
+        },
+        "Gain": 100.0,
+        "IsEnabled": true
+      }
+    },
+    {
+      "SyncWithParentEffect": false,
+      "TypeName": "RollRateEffect",
+      "Settings": {
+        "WashoutSettings": {
+          "EnableWashout": false,
+          "FilterAdded": true,
+          "EnableAdapativeWashout": false,
+          "SoftValue": {},
+          "StrongValue": {},
+          "ExtremeValue": {},
+          "WashoutMultiplierMode": 0
+        },
+        "EnableDynamicRangeCompression": false,
+        "AccelerationFilter": {
+          "FilterAdded": true,
+          "Enabled": false,
+          "Acceleration": 525.0,
+          "AccelerationTimeIncrement": 0.0902
+        },
+        "SoftBounds": true,
+        "SoftBoundRange": 50.0,
+        "Smoothing": 85.0,
+        "CorrectionCurve": {
+          "GammaFilter": {
+            "GammaValue": 1.0,
+            "Threshold": 3,
+            "MinimumValue": 0,
+            "DeadZoneSmoothing": 40.0,
+            "FilterType": "GammaFilter"
+          },
+          "IsEnabled": true,
+          "FilterAdded": true
+        },
+        "Filter": {
+          "GammaValue": 1.0,
+          "Threshold": 3,
+          "MinimumValue": 0,
+          "DeadZoneSmoothing": 40.0,
+          "FilterType": "GammaFilter"
+        },
+        "PostProcessingEnabled": true,
+        "MaxInputRange": 215.0,
+        "MaxOutputRange": 25.0,
+        "ScalingRange": {
+          "Input": 215.0,
+          "Output": 25.0
+        },
+        "Gain": 74.0,
+        "IsEnabled": true
+      }
+    },
+    {
+      "SyncWithParentEffect": false,
+      "TypeName": "SurgeEffect",
+      "Settings": {
+        "ForwardWhenBraking": true,
+        "EnableDynamicRangeCompression": false,
+        "AccelerationFilter": {
+          "FilterAdded": true,
+          "Enabled": false,
+          "Acceleration": 88.218390804597789,
+          "AccelerationTimeIncrement": 0.002
+        },
+        "MaxInputRangeNegative": 40.0,
+        "MaxInputRangePositive": 45.0,
+        "MaxOutputRangeNegative": 17.0,
+        "MaxOutputRangePositive": 17.0,
+        "SeparatePositiveNegative": true,
+        "SeparateScalingRange": {
+          "IsEnabled": true,
+          "Positive": {
+            "Input": 45.0,
+            "Output": 17.0
+          },
+          "Negative": {
+            "Input": 40.0,
+            "Output": 17.0
+          }
+        },
+        "CorrectionCurve": {
+          "GammaFilter": {
+            "GammaValue": 1.0,
+            "Threshold": 0,
+            "MinimumValue": 0,
+            "DeadZoneSmoothing": 40.0,
+            "FilterType": "GammaFilter"
+          },
+          "IsEnabled": false,
+          "FilterAdded": true
+        },
+        "Filter": {
+          "GammaValue": 1.0,
+          "Threshold": 0,
+          "MinimumValue": 0,
+          "DeadZoneSmoothing": 40.0,
+          "FilterType": "GammaFilter"
+        },
+        "PostProcessingEnabled": false,
+        "Smoothing": 0.0,
+        "SoftBounds": false,
+        "SoftBoundRange": 15.0,
+        "WashoutSettings": {
+          "EnableWashout": false,
+          "FilterAdded": true,
+          "EnableAdapativeWashout": false,
+          "SoftValue": {},
+          "StrongValue": {},
+          "ExtremeValue": {},
+          "WashoutMultiplierMode": 0
+        },
+        "MaxInputRange": 45.0,
+        "MaxOutputRange": 17.0,
+        "ScalingRange": {
+          "Input": 45.0,
+          "Output": 17.0
+        },
+        "Gain": 100.0,
+        "IsEnabled": true
+      }
+    },
+    {
+      "SyncWithParentEffect": false,
+      "TypeName": "Surge6DofsEffect",
+      "Settings": {
+        "ForwardWhenBraking": true,
+        "EnableDynamicRangeCompression": true,
+        "AccelerationFilter": {
+          "FilterAdded": true,
+          "Enabled": false,
+          "Acceleration": 525.0,
+          "AccelerationTimeIncrement": 0.00592
+        },
+        "MaxInputRangeNegative": 12.0,
+        "MaxInputRangePositive": 12.0,
+        "MaxOutputRangeNegative": 5.0,
+        "MaxOutputRangePositive": 5.0,
+        "SeparatePositiveNegative": false,
+        "SeparateScalingRange": {
+          "IsEnabled": false,
+          "Positive": {
+            "Input": 12.0,
+            "Output": 5.0
+          },
+          "Negative": {
+            "Input": 12.0,
+            "Output": 5.0
+          }
+        },
+        "CorrectionCurve": {
+          "GammaFilter": {
+            "GammaValue": 1.0,
+            "Threshold": 0,
+            "MinimumValue": 0,
+            "DeadZoneSmoothing": 40.0,
+            "FilterType": "GammaFilter"
+          },
+          "IsEnabled": false,
+          "FilterAdded": true
+        },
+        "Filter": {
+          "GammaValue": 1.0,
+          "Threshold": 0,
+          "MinimumValue": 0,
+          "DeadZoneSmoothing": 40.0,
+          "FilterType": "GammaFilter"
+        },
+        "PostProcessingEnabled": false,
+        "Smoothing": 50.0,
+        "SoftBounds": true,
+        "SoftBoundRange": 15.0,
+        "WashoutSettings": {
+          "EnableWashout": false,
+          "FilterAdded": true,
+          "EnableAdapativeWashout": false,
+          "SoftValue": {},
+          "StrongValue": {},
+          "ExtremeValue": {},
+          "WashoutMultiplierMode": 0
+        },
+        "MaxInputRange": 12.0,
+        "MaxOutputRange": 5.0,
+        "ScalingRange": {
+          "Input": 12.0,
+          "Output": 5.0
+        },
+        "Gain": 100.0,
+        "IsEnabled": true
+      }
+    },
+    {
+      "SyncWithParentEffect": false,
+      "TypeName": "ExtraAxisSwayEffect",
+      "Settings": {
+        "OutwardForces": true,
+        "WashoutSettings": {
+          "EnableWashout": false,
+          "FilterAdded": true,
+          "EnableAdapativeWashout": false,
+          "SoftValue": {},
+          "StrongValue": {},
+          "ExtremeValue": {},
+          "WashoutMultiplierMode": 0
+        },
+        "EnableDynamicRangeCompression": true,
+        "AccelerationFilter": {
+          "FilterAdded": true,
+          "Enabled": true,
+          "Acceleration": 525.0,
+          "AccelerationTimeIncrement": 0.0118
+        },
+        "SoftBounds": true,
+        "SoftBoundRange": 15.0,
+        "Smoothing": 50.0,
+        "CorrectionCurve": {
+          "GammaFilter": {
+            "GammaValue": 1.0,
+            "Threshold": 0,
+            "MinimumValue": 0,
+            "DeadZoneSmoothing": 40.0,
+            "FilterType": "GammaFilter"
+          },
+          "IsEnabled": false,
+          "FilterAdded": true
+        },
+        "Filter": {
+          "GammaValue": 1.0,
+          "Threshold": 0,
+          "MinimumValue": 0,
+          "DeadZoneSmoothing": 40.0,
+          "FilterType": "GammaFilter"
+        },
+        "PostProcessingEnabled": false,
+        "MaxInputRange": 20.0,
+        "MaxOutputRange": 75.0,
+        "ScalingRange": {
+          "Input": 20.0,
+          "Output": 75.0
+        },
+        "Gain": 100.0,
+        "IsEnabled": true
+      }
+    },
+    {
+      "SyncWithParentEffect": false,
+      "TypeName": "SwayEffect",
+      "Settings": {
+        "OutwardForces": true,
+        "WashoutSettings": {
+          "EnableWashout": false,
+          "FilterAdded": true,
+          "EnableAdapativeWashout": false,
+          "SoftValue": {},
+          "StrongValue": {},
+          "ExtremeValue": {},
+          "WashoutMultiplierMode": 0
+        },
+        "EnableDynamicRangeCompression": true,
+        "AccelerationFilter": {
+          "FilterAdded": true,
+          "Enabled": false,
+          "Acceleration": 525.0,
+          "AccelerationTimeIncrement": 0.0118
+        },
+        "SoftBounds": true,
+        "SoftBoundRange": 15.0,
+        "Smoothing": 70.0,
+        "CorrectionCurve": {
+          "GammaFilter": {
+            "GammaValue": 1.0,
+            "Threshold": 0,
+            "MinimumValue": 0,
+            "DeadZoneSmoothing": 40.0,
+            "FilterType": "GammaFilter"
+          },
+          "IsEnabled": false,
+          "FilterAdded": true
+        },
+        "Filter": {
+          "GammaValue": 1.0,
+          "Threshold": 0,
+          "MinimumValue": 0,
+          "DeadZoneSmoothing": 40.0,
+          "FilterType": "GammaFilter"
+        },
+        "PostProcessingEnabled": false,
+        "MaxInputRange": 15.0,
+        "MaxOutputRange": 6.0,
+        "ScalingRange": {
+          "Input": 15.0,
+          "Output": 6.0
+        },
+        "Gain": 99.0,
+        "IsEnabled": false
+      }
+    },
+    {
+      "SyncWithParentEffect": false,
+      "TypeName": "Sway6DofsEffect",
+      "Settings": {
+        "OutwardForces": true,
+        "WashoutSettings": {
+          "EnableWashout": false,
+          "FilterAdded": true,
+          "EnableAdapativeWashout": false,
+          "SoftValue": {},
+          "StrongValue": {},
+          "ExtremeValue": {},
+          "WashoutMultiplierMode": 0
+        },
+        "EnableDynamicRangeCompression": true,
+        "AccelerationFilter": {
+          "FilterAdded": true,
+          "Enabled": false,
+          "Acceleration": 525.0,
+          "AccelerationTimeIncrement": 0.0118
+        },
+        "SoftBounds": true,
+        "SoftBoundRange": 15.0,
+        "Smoothing": 70.0,
+        "CorrectionCurve": {
+          "GammaFilter": {
+            "GammaValue": 1.0,
+            "Threshold": 0,
+            "MinimumValue": 0,
+            "DeadZoneSmoothing": 40.0,
+            "FilterType": "GammaFilter"
+          },
+          "IsEnabled": false,
+          "FilterAdded": true
+        },
+        "Filter": {
+          "GammaValue": 1.0,
+          "Threshold": 0,
+          "MinimumValue": 0,
+          "DeadZoneSmoothing": 40.0,
+          "FilterType": "GammaFilter"
+        },
+        "PostProcessingEnabled": false,
+        "MaxInputRange": 20.0,
+        "MaxOutputRange": 100.0,
+        "ScalingRange": {
+          "Input": 20.0,
+          "Output": 100.0
+        },
+        "Gain": 100.0,
+        "IsEnabled": true
+      }
+    },
+    {
+      "SyncWithParentEffect": false,
+      "TypeName": "HeaveEffect",
+      "Settings": {
+        "ReverseDirection": false,
+        "WashoutSettings": {
+          "EnableWashout": false,
+          "FilterAdded": true,
+          "EnableAdapativeWashout": false,
+          "SoftValue": {},
+          "StrongValue": {},
+          "ExtremeValue": {},
+          "WashoutMultiplierMode": 0
+        },
+        "EnableDynamicRangeCompression": false,
+        "AccelerationFilter": {
+          "FilterAdded": true,
+          "Enabled": false,
+          "Acceleration": 525.0,
+          "AccelerationTimeIncrement": 0.0118
+        },
+        "SoftBounds": false,
+        "SoftBoundRange": 15.0,
+        "Smoothing": 0.0,
+        "CorrectionCurve": {
+          "GammaFilter": {
+            "GammaValue": 1.0,
+            "Threshold": 0,
+            "MinimumValue": 0,
+            "DeadZoneSmoothing": 40.0,
+            "FilterType": "GammaFilter"
+          },
+          "IsEnabled": false,
+          "FilterAdded": true
+        },
+        "Filter": {
+          "GammaValue": 1.0,
+          "Threshold": 0,
+          "MinimumValue": 0,
+          "DeadZoneSmoothing": 40.0,
+          "FilterType": "GammaFilter"
+        },
+        "PostProcessingEnabled": false,
+        "MaxInputRange": 13.0,
+        "MaxOutputRange": 15.0,
+        "ScalingRange": {
+          "Input": 13.0,
+          "Output": 15.0
+        },
+        "Gain": 98.0,
+        "IsEnabled": true
+      }
+    },
+    {
+      "SyncWithParentEffect": false,
+      "TypeName": "Yaw6DofsEffect",
+      "Settings": {
+        "WashoutSettings": {
+          "EnableWashout": true,
+          "FilterAdded": true,
+          "EnableAdapativeWashout": true,
+          "SoftValue": {
+            "BaseWashout": 80.0
+          },
+          "StrongValue": {
+            "BaseWashout": 1.0,
+            "MaxWashout": 32.0
+          },
+          "ExtremeValue": {},
+          "WashoutMultiplierMode": 1
+        },
+        "EnableDynamicRangeCompression": true,
+        "AccelerationFilter": {
+          "FilterAdded": true,
+          "Enabled": true,
+          "Acceleration": 525.0,
+          "AccelerationTimeIncrement": 0.0118
+        },
+        "SoftBounds": true,
+        "SoftBoundRange": 15.0,
+        "Smoothing": 50.0,
+        "CorrectionCurve": {
+          "GammaFilter": {
+            "GammaValue": 1.0,
+            "Threshold": 0,
+            "MinimumValue": 0,
+            "DeadZoneSmoothing": 40.0,
+            "FilterType": "GammaFilter"
+          },
+          "IsEnabled": false,
+          "FilterAdded": true
+        },
+        "Filter": {
+          "GammaValue": 1.0,
+          "Threshold": 0,
+          "MinimumValue": 0,
+          "DeadZoneSmoothing": 40.0,
+          "FilterType": "GammaFilter"
+        },
+        "PostProcessingEnabled": false,
+        "MaxInputRange": 20.0,
+        "MaxOutputRange": 20.0,
+        "ScalingRange": {
+          "Input": 20.0,
+          "Output": 20.0
+        },
+        "Gain": 100.0,
+        "IsEnabled": true
+      }
+    },
+    {
+      "SyncWithParentEffect": false,
+      "TypeName": "TractionLossEffect",
+      "Settings": {
+        "TractionLossRange": {
+          "Input": 30.0
+        },
+        "VelocityRange": {
+          "Input": 20.0
+        },
+        "OutputRange": {
+          "Value": 10.0
+        },
+        "EnableDynamicRangeCompression": true,
+        "AccelerationFilter": {
+          "FilterAdded": true,
+          "Enabled": false,
+          "Acceleration": 525.0,
+          "AccelerationTimeIncrement": 0.0118
+        },
+        "SoftBounds": true,
+        "SoftBoundRange": 15.0,
+        "ControlledVelocity": 200.0,
+        "EnableControlledVelocityMaxRangeReduction": true,
+        "ControlledVelocityMaxRangeReduction": 70.0,
+        "EnableControlledVelocity": false,
+        "YawRateSensibility": 30.0,
+        "MaxInputRangeTractionLoss": 30.0,
+        "MaxInputRangeVelocity": 20.0,
+        "MaxOutputRange": 10.0,
+        "TractionLossMode": 0,
+        "UseLowSpeedYawRateDirectionCompensation": true,
+        "Smoothing": 60.0,
+        "CorrectionCurve": {
+          "GammaFilter": {
+            "GammaValue": 0.9,
+            "Threshold": 0,
+            "MinimumValue": 0,
+            "DeadZoneSmoothing": 40.0,
+            "FilterType": "GammaFilter"
+          },
+          "IsEnabled": true,
+          "FilterAdded": true
+        },
+        "Filter": {
+          "GammaValue": 0.9,
+          "Threshold": 0,
+          "MinimumValue": 0,
+          "DeadZoneSmoothing": 40.0,
+          "FilterType": "GammaFilter"
+        },
+        "PostProcessingEnabled": true,
+        "WashoutSettings": {
+          "EnableWashout": false,
+          "FilterAdded": true,
+          "EnableAdapativeWashout": false,
+          "SoftValue": {},
+          "StrongValue": {},
+          "ExtremeValue": {},
+          "WashoutMultiplierMode": 0
+        },
+        "Gain": 100.0,
+        "IsEnabled": false
+      }
+    },
+    {
+      "SyncWithParentEffect": false,
+      "TypeName": "TractionLoss6DofsEffect",
+      "Settings": {
+        "TractionLossRange": {
+          "Input": 30.0
+        },
+        "VelocityRange": {
+          "Input": 20.0
+        },
+        "OutputRange": {
+          "Value": 10.0
+        },
+        "EnableDynamicRangeCompression": true,
+        "AccelerationFilter": {
+          "FilterAdded": true,
+          "Enabled": false,
+          "Acceleration": 525.0,
+          "AccelerationTimeIncrement": 0.0118
+        },
+        "SoftBounds": true,
+        "SoftBoundRange": 15.0,
+        "ControlledVelocity": 200.0,
+        "EnableControlledVelocityMaxRangeReduction": true,
+        "ControlledVelocityMaxRangeReduction": 70.0,
+        "EnableControlledVelocity": false,
+        "YawRateSensibility": 30.0,
+        "MaxInputRangeTractionLoss": 30.0,
+        "MaxInputRangeVelocity": 20.0,
+        "MaxOutputRange": 10.0,
+        "TractionLossMode": 0,
+        "UseLowSpeedYawRateDirectionCompensation": true,
+        "Smoothing": 60.0,
+        "CorrectionCurve": {
+          "GammaFilter": {
+            "GammaValue": 0.9,
+            "Threshold": 0,
+            "MinimumValue": 0,
+            "DeadZoneSmoothing": 40.0,
+            "FilterType": "GammaFilter"
+          },
+          "IsEnabled": true,
+          "FilterAdded": true
+        },
+        "Filter": {
+          "GammaValue": 0.9,
+          "Threshold": 0,
+          "MinimumValue": 0,
+          "DeadZoneSmoothing": 40.0,
+          "FilterType": "GammaFilter"
+        },
+        "PostProcessingEnabled": true,
+        "WashoutSettings": {
+          "EnableWashout": false,
+          "FilterAdded": true,
+          "EnableAdapativeWashout": false,
+          "SoftValue": {},
+          "StrongValue": {},
+          "ExtremeValue": {},
+          "WashoutMultiplierMode": 0
+        },
+        "Gain": 100.0,
+        "IsEnabled": false
+      }
+    },
+    {
+      "SyncWithParentEffect": false,
+      "TypeName": "SuspensionEffect",
+      "Settings": {
+        "EnableDownSampling": false,
+        "DownSamplingFrequency": 20.0,
+        "BoostValue": 50.0,
+        "BoostSpeed": 70.0,
+        "EnableSpeedBoost": false,
+        "CorrectionCurve": {
+          "GammaFilter": {
+            "GammaValue": 1.5,
+            "Threshold": 0,
+            "MinimumValue": 0,
+            "DeadZoneSmoothing": 40.0,
+            "FilterType": "GammaFilter"
+          },
+          "IsEnabled": false,
+          "FilterAdded": true
+        },
+        "Filter": {
+          "GammaValue": 1.5,
+          "Threshold": 0,
+          "MinimumValue": 0,
+          "DeadZoneSmoothing": 40.0,
+          "FilterType": "GammaFilter"
+        },
+        "PostProcessingEnabled": false,
+        "MaxInputRange": 0.5,
+        "MaxOutputRange": 5.0,
+        "ScalingRange": {
+          "Input": 0.5,
+          "Output": 5.0
+        },
+        "Gain": 98.0,
+        "IsEnabled": true
+      }
+    },
+    {
+      "SyncWithParentEffect": false,
+      "TypeName": "TractionLossHapticsEffect",
+      "Settings": {
+        "CorrectionCurve": {
+          "GammaFilter": {
+            "GammaValue": 0.5,
+            "Threshold": 10,
+            "MinimumValue": 0,
+            "DeadZoneSmoothing": 40.0,
+            "FilterType": "GammaFilter"
+          },
+          "IsEnabled": true,
+          "FilterAdded": true
+        },
+        "Filter": {
+          "GammaValue": 0.5,
+          "Threshold": 10,
+          "MinimumValue": 0,
+          "DeadZoneSmoothing": 40.0,
+          "FilterType": "GammaFilter"
+        },
+        "PostProcessingEnabled": true,
+        "MaxOutputRange": 2.0,
+        "Sensitivity": 75.0,
+        "SideFocus": 50.0,
+        "SignalGrain": 20.0,
+        "BoostValue": 50.0,
+        "BoostSpeed": 70.0,
+        "EnableSpeedBoost": false,
+        "Gain": 100.0,
+        "IsEnabled": false
+      }
+    },
+    {
+      "SyncWithParentEffect": false,
+      "TypeName": "WingsLoadHapticsEffect",
+      "Settings": {
+        "CorrectionCurve": {
+          "GammaFilter": {
+            "GammaValue": 1.5,
+            "Threshold": 0,
+            "MinimumValue": 0,
+            "DeadZoneSmoothing": 40.0,
+            "FilterType": "GammaFilter"
+          },
+          "IsEnabled": true,
+          "FilterAdded": true
+        },
+        "Filter": {
+          "GammaValue": 1.5,
+          "Threshold": 0,
+          "MinimumValue": 0,
+          "DeadZoneSmoothing": 40.0,
+          "FilterType": "GammaFilter"
+        },
+        "PostProcessingEnabled": true,
+        "MaxOutputRange": 1.5,
+        "Sensitivity": 50.0,
+        "SignalGrain": 20.0,
+        "BoostValue": 50.0,
+        "BoostSpeed": 70.0,
+        "EnableSpeedBoost": false,
+        "Gain": 97.0,
+        "IsEnabled": true
+      }
+    },
+    {
+      "SyncWithParentEffect": false,
+      "TypeName": "FlightTouchdownHapticsEffect",
+      "Settings": {
+        "BoostValue": 50.0,
+        "BoostSpeed": 70.0,
+        "EnableSpeedBoost": false,
+        "MaxOutputRange": 5.0,
+        "PulseDuration": 50.0,
+        "UseAdvancedShape": true,
+        "AdvancedPulseDuration": 80.0,
+        "AdvancedRampUpDuration": 10.0,
+        "AdvancedRampDownDuration": 400.0,
+        "Gain": 100.0,
+        "IsEnabled": true
+      }
+    },
+    {
+      "SyncWithParentEffect": false,
+      "TypeName": "EngineEffect",
+      "Settings": {
+        "MaxOutputRange": 1.5,
+        "StopAtSpeed": false,
+        "StopAtSpeedKmh": 40.0,
+        "EngineEffectShape": 1,
+        "V2_FrequencyMin": 15.0,
+        "V2_FrequencyHigh": 50.0,
+        "V2_FrequencyIdle": 7.0,
+        "V2_GainIdle": 100.0,
+        "V2_GainMin": 80.0,
+        "V2_GainHigh": 100.0,
+        "Gain": 56.0,
+        "IsEnabled": true
+      }
+    },
+    {
+      "SyncWithParentEffect": false,
+      "TypeName": "ExtraAxisSurgeEffect",
+      "Settings": {
+        "ForwardWhenBraking": true,
+        "EnableDynamicRangeCompression": true,
+        "AccelerationFilter": {
+          "FilterAdded": true,
+          "Enabled": false,
+          "Acceleration": 525.0,
+          "AccelerationTimeIncrement": 0.0118
+        },
+        "MaxInputRangeNegative": 20.0,
+        "MaxInputRangePositive": 20.0,
+        "MaxOutputRangeNegative": 75.0,
+        "MaxOutputRangePositive": 75.0,
+        "SeparatePositiveNegative": false,
+        "SeparateScalingRange": {
+          "IsEnabled": false,
+          "Positive": {
+            "Input": 20.0,
+            "Output": 75.0
+          },
+          "Negative": {
+            "Input": 20.0,
+            "Output": 75.0
+          }
+        },
+        "CorrectionCurve": {
+          "GammaFilter": {
+            "GammaValue": 1.0,
+            "Threshold": 0,
+            "MinimumValue": 0,
+            "DeadZoneSmoothing": 40.0,
+            "FilterType": "GammaFilter"
+          },
+          "IsEnabled": false,
+          "FilterAdded": true
+        },
+        "Filter": {
+          "GammaValue": 1.0,
+          "Threshold": 0,
+          "MinimumValue": 0,
+          "DeadZoneSmoothing": 40.0,
+          "FilterType": "GammaFilter"
+        },
+        "PostProcessingEnabled": false,
+        "Smoothing": 60.0,
+        "SoftBounds": true,
+        "SoftBoundRange": 15.0,
+        "WashoutSettings": {
+          "EnableWashout": false,
+          "FilterAdded": true,
+          "EnableAdapativeWashout": false,
+          "SoftValue": {},
+          "StrongValue": {},
+          "ExtremeValue": {},
+          "WashoutMultiplierMode": 0
+        },
+        "MaxInputRange": 20.0,
+        "MaxOutputRange": 75.0,
+        "ScalingRange": {
+          "Input": 20.0,
+          "Output": 75.0
+        },
+        "Gain": 100.0,
+        "IsEnabled": true
+      }
+    },
+    {
+      "SyncWithParentEffect": false,
+      "TypeName": "ExtraAxisTractionLossEffect",
+      "Settings": {
+        "TractionLossRange": {
+          "Input": 95.0
+        },
+        "VelocityRange": {
+          "Input": 99.0
+        },
+        "OutputRange": {
+          "Value": 5.5
+        },
+        "EnableDynamicRangeCompression": false,
+        "AccelerationFilter": {
+          "FilterAdded": true,
+          "Enabled": false,
+          "Acceleration": 525.0,
+          "AccelerationTimeIncrement": 0.0118
+        },
+        "SoftBounds": true,
+        "SoftBoundRange": 35.0,
+        "ControlledVelocity": 200.0,
+        "EnableControlledVelocityMaxRangeReduction": true,
+        "ControlledVelocityMaxRangeReduction": 70.0,
+        "EnableControlledVelocity": false,
+        "YawRateSensibility": 30.0,
+        "MaxInputRangeTractionLoss": 95.0,
+        "MaxInputRangeVelocity": 99.0,
+        "MaxOutputRange": 5.5,
+        "TractionLossMode": 1,
+        "UseLowSpeedYawRateDirectionCompensation": false,
+        "Smoothing": 75.0,
+        "CorrectionCurve": {
+          "GammaFilter": {
+            "GammaValue": 0.9,
+            "Threshold": 0,
+            "MinimumValue": 0,
+            "DeadZoneSmoothing": 40.0,
+            "FilterType": "GammaFilter"
+          },
+          "IsEnabled": false,
+          "FilterAdded": true
+        },
+        "Filter": {
+          "GammaValue": 0.9,
+          "Threshold": 0,
+          "MinimumValue": 0,
+          "DeadZoneSmoothing": 40.0,
+          "FilterType": "GammaFilter"
+        },
+        "PostProcessingEnabled": false,
+        "WashoutSettings": {
+          "EnableWashout": false,
+          "FilterAdded": true,
+          "EnableAdapativeWashout": false,
+          "SoftValue": {},
+          "StrongValue": {},
+          "ExtremeValue": {},
+          "WashoutMultiplierMode": 0
+        },
+        "Gain": 98.0,
+        "IsEnabled": true
+      }
+    },
+    {
+      "SyncWithParentEffect": false,
+      "TypeName": "ExtraAxisTractionLossSwayEffect",
+      "Settings": {
+        "WashoutSettings": {
+          "EnableWashout": true,
+          "FilterAdded": true,
+          "EnableAdapativeWashout": false,
+          "SoftValue": {},
+          "StrongValue": {},
+          "ExtremeValue": {},
+          "WashoutMultiplierMode": 0
+        },
+        "EnableDynamicRangeCompression": true,
+        "AccelerationFilter": {
+          "FilterAdded": true,
+          "Enabled": false,
+          "Acceleration": 525.0,
+          "AccelerationTimeIncrement": 0.0118
+        },
+        "SoftBounds": true,
+        "SoftBoundRange": 15.0,
+        "Smoothing": 70.0,
+        "CorrectionCurve": {
+          "GammaFilter": {
+            "GammaValue": 1.0,
+            "Threshold": 0,
+            "MinimumValue": 0,
+            "DeadZoneSmoothing": 40.0,
+            "FilterType": "GammaFilter"
+          },
+          "IsEnabled": false,
+          "FilterAdded": true
+        },
+        "Filter": {
+          "GammaValue": 1.0,
+          "Threshold": 0,
+          "MinimumValue": 0,
+          "DeadZoneSmoothing": 40.0,
+          "FilterType": "GammaFilter"
+        },
+        "PostProcessingEnabled": false,
+        "MaxInputRange": 10.0,
+        "MaxOutputRange": 10.0,
+        "ScalingRange": {
+          "Input": 10.0,
+          "Output": 10.0
+        },
+        "Gain": 92.0,
+        "IsEnabled": false
+      }
+    },
+    {
+      "SyncWithParentEffect": false,
+      "TypeName": "ExtraAxisFrontRearTractionLossEffect",
+      "Settings": {
+        "FrontMaxOutputRange": 64.5,
+        "Bias": 57.0,
+        "TractionLossRange": {
+          "Input": 30.0
+        },
+        "VelocityRange": {
+          "Input": 20.0
+        },
+        "OutputRange": {
+          "Value": 75.0
+        },
+        "EnableDynamicRangeCompression": false,
+        "AccelerationFilter": {
+          "FilterAdded": true,
+          "Enabled": false,
+          "Acceleration": 525.0,
+          "AccelerationTimeIncrement": 0.0118
+        },
+        "SoftBounds": true,
+        "SoftBoundRange": 15.0,
+        "ControlledVelocity": 200.0,
+        "EnableControlledVelocityMaxRangeReduction": true,
+        "ControlledVelocityMaxRangeReduction": 70.0,
+        "EnableControlledVelocity": true,
+        "YawRateSensibility": 30.0,
+        "MaxInputRangeTractionLoss": 30.0,
+        "MaxInputRangeVelocity": 20.0,
+        "MaxOutputRange": 75.0,
+        "TractionLossMode": 0,
+        "UseLowSpeedYawRateDirectionCompensation": true,
+        "Smoothing": 60.0,
+        "CorrectionCurve": {
+          "GammaFilter": {
+            "GammaValue": 0.9,
+            "Threshold": 0,
+            "MinimumValue": 0,
+            "DeadZoneSmoothing": 40.0,
+            "FilterType": "GammaFilter"
+          },
+          "IsEnabled": true,
+          "FilterAdded": true
+        },
+        "Filter": {
+          "GammaValue": 0.9,
+          "Threshold": 0,
+          "MinimumValue": 0,
+          "DeadZoneSmoothing": 40.0,
+          "FilterType": "GammaFilter"
+        },
+        "PostProcessingEnabled": true,
+        "WashoutSettings": {
+          "EnableWashout": false,
+          "FilterAdded": true,
+          "EnableAdapativeWashout": false,
+          "SoftValue": {},
+          "StrongValue": {},
+          "ExtremeValue": {},
+          "WashoutMultiplierMode": 0
+        },
+        "Gain": 100.0,
+        "IsEnabled": true
+      }
+    },
+    {
+      "SyncWithParentEffect": false,
+      "TypeName": "ExtraAxisFrontRearTractionLossSwayEffect",
+      "Settings": {
+        "WashoutSettings": {
+          "EnableWashout": false,
+          "FilterAdded": true,
+          "EnableAdapativeWashout": false,
+          "SoftValue": {},
+          "StrongValue": {},
+          "ExtremeValue": {},
+          "WashoutMultiplierMode": 0
+        },
+        "EnableDynamicRangeCompression": true,
+        "AccelerationFilter": {
+          "FilterAdded": true,
+          "Enabled": false,
+          "Acceleration": 525.0,
+          "AccelerationTimeIncrement": 0.0118
+        },
+        "SoftBounds": true,
+        "SoftBoundRange": 15.0,
+        "Smoothing": 70.0,
+        "CorrectionCurve": {
+          "GammaFilter": {
+            "GammaValue": 1.0,
+            "Threshold": 0,
+            "MinimumValue": 0,
+            "DeadZoneSmoothing": 40.0,
+            "FilterType": "GammaFilter"
+          },
+          "IsEnabled": false,
+          "FilterAdded": true
+        },
+        "Filter": {
+          "GammaValue": 1.0,
+          "Threshold": 0,
+          "MinimumValue": 0,
+          "DeadZoneSmoothing": 40.0,
+          "FilterType": "GammaFilter"
+        },
+        "PostProcessingEnabled": false,
+        "MaxInputRange": 30.0,
+        "MaxOutputRange": 75.0,
+        "ScalingRange": {
+          "Input": 30.0,
+          "Output": 75.0
+        },
+        "Gain": 100.0,
+        "IsEnabled": true
+      }
+    },
+    {
+      "SyncWithParentEffect": false,
+      "TypeName": "ExtraAxisFrontRearTractionLossYawEffect",
+      "Settings": {
+        "WashoutSettings": {
+          "EnableWashout": true,
+          "FilterAdded": true,
+          "EnableAdapativeWashout": false,
+          "SoftValue": {
+            "BaseWashout": 80.0
+          },
+          "StrongValue": {},
+          "ExtremeValue": {},
+          "WashoutMultiplierMode": 0
+        },
+        "EnableDynamicRangeCompression": true,
+        "AccelerationFilter": {
+          "FilterAdded": true,
+          "Enabled": true,
+          "Acceleration": 525.0,
+          "AccelerationTimeIncrement": 0.0118
+        },
+        "SoftBounds": true,
+        "SoftBoundRange": 15.0,
+        "Smoothing": 50.0,
+        "CorrectionCurve": {
+          "GammaFilter": {
+            "GammaValue": 1.0,
+            "Threshold": 0,
+            "MinimumValue": 0,
+            "DeadZoneSmoothing": 40.0,
+            "FilterType": "GammaFilter"
+          },
+          "IsEnabled": false,
+          "FilterAdded": true
+        },
+        "Filter": {
+          "GammaValue": 1.0,
+          "Threshold": 0,
+          "MinimumValue": 0,
+          "DeadZoneSmoothing": 40.0,
+          "FilterType": "GammaFilter"
+        },
+        "PostProcessingEnabled": false,
+        "MaxInputRange": 20.0,
+        "MaxOutputRange": 75.0,
+        "ScalingRange": {
+          "Input": 20.0,
+          "Output": 75.0
+        },
+        "Gain": 100.0,
+        "IsEnabled": true
+      }
+    },
+    {
+      "SyncWithParentEffect": false,
+      "TypeName": "ExtraAxisBeltSurgeEffect",
+      "Settings": {
+        "ReverseDirection": false,
+        "NegativeTorqueLimitPercent": 5.0,
+        "NegativeTorqueMode": 1,
+        "EnableDynamicRangeCompression": true,
+        "CorrectionCurve": {
+          "GammaFilter": {
+            "GammaValue": 1.0,
+            "Threshold": 0,
+            "MinimumValue": 0,
+            "DeadZoneSmoothing": 40.0,
+            "FilterType": "GammaFilter"
+          },
+          "IsEnabled": false,
+          "FilterAdded": true
+        },
+        "Filter": {
+          "GammaValue": 1.0,
+          "Threshold": 0,
+          "MinimumValue": 0,
+          "DeadZoneSmoothing": 40.0,
+          "FilterType": "GammaFilter"
+        },
+        "PostProcessingEnabled": false,
+        "Smoothing": 20.0,
+        "SoftBounds": false,
+        "SoftBoundRange": 5.0,
+        "AccelerationFilter": {
+          "FilterAdded": true,
+          "Enabled": false,
+          "Acceleration": 525.0,
+          "AccelerationTimeIncrement": 0.0118
+        },
+        "MaxInputRange": 15.0,
+        "ScalingRange": {
+          "Input": 15.0,
+          "Output": 100.0
+        },
+        "Gain": 100.0,
+        "IsEnabled": true
+      }
+    },
+    {
+      "SyncWithParentEffect": false,
+      "TypeName": "ExtraAxisBeltSwayEffect",
+      "Settings": {
+        "NegativeTorqueLimitPercent": 15.0,
+        "NegativeTorqueMode": 1,
+        "EnableDynamicRangeCompression": true,
+        "CorrectionCurve": {
+          "GammaFilter": {
+            "GammaValue": 1.0,
+            "Threshold": 0,
+            "MinimumValue": 0,
+            "DeadZoneSmoothing": 40.0,
+            "FilterType": "GammaFilter"
+          },
+          "IsEnabled": false,
+          "FilterAdded": true
+        },
+        "Filter": {
+          "GammaValue": 1.0,
+          "Threshold": 0,
+          "MinimumValue": 0,
+          "DeadZoneSmoothing": 40.0,
+          "FilterType": "GammaFilter"
+        },
+        "PostProcessingEnabled": false,
+        "Smoothing": 50.0,
+        "SoftBounds": true,
+        "SoftBoundRange": 5.0,
+        "AccelerationFilter": {
+          "FilterAdded": true,
+          "Enabled": false,
+          "Acceleration": 525.0,
+          "AccelerationTimeIncrement": 0.0118
+        },
+        "MaxInputRange": 20.0,
+        "ScalingRange": {
+          "Input": 20.0,
+          "Output": 100.0
+        },
+        "Gain": 75.0,
+        "IsEnabled": true
+      }
+    },
+    {
+      "SyncWithParentEffect": false,
+      "TypeName": "ExtraAxisBeltSingleSwayEffect",
+      "Settings": {
+        "EnableDynamicRangeCompression": true,
+        "CorrectionCurve": {
+          "GammaFilter": {
+            "GammaValue": 1.0,
+            "Threshold": 0,
+            "MinimumValue": 0,
+            "DeadZoneSmoothing": 40.0,
+            "FilterType": "GammaFilter"
+          },
+          "IsEnabled": false,
+          "FilterAdded": true
+        },
+        "Filter": {
+          "GammaValue": 1.0,
+          "Threshold": 0,
+          "MinimumValue": 0,
+          "DeadZoneSmoothing": 40.0,
+          "FilterType": "GammaFilter"
+        },
+        "PostProcessingEnabled": false,
+        "Smoothing": 50.0,
+        "SoftBounds": true,
+        "SoftBoundRange": 5.0,
+        "AccelerationFilter": {
+          "FilterAdded": true,
+          "Enabled": false,
+          "Acceleration": 525.0,
+          "AccelerationTimeIncrement": 0.0118
+        },
+        "MaxInputRange": 20.0,
+        "ScalingRange": {
+          "Input": 20.0,
+          "Output": 100.0
+        },
+        "Gain": 75.0,
+        "IsEnabled": true
+      }
+    },
+    {
+      "SyncWithParentEffect": false,
+      "TypeName": "ExtraAxisBeltHeaveEffect",
+      "Settings": {
+        "NegativeTorqueLimitPercent": 5.0,
+        "NegativeTorqueMode": 2,
+        "EnableDynamicRangeCompression": true,
+        "CorrectionCurve": {
+          "GammaFilter": {
+            "GammaValue": 1.0,
+            "Threshold": 0,
+            "MinimumValue": 0,
+            "DeadZoneSmoothing": 40.0,
+            "FilterType": "GammaFilter"
+          },
+          "IsEnabled": false,
+          "FilterAdded": true
+        },
+        "Filter": {
+          "GammaValue": 1.0,
+          "Threshold": 0,
+          "MinimumValue": 0,
+          "DeadZoneSmoothing": 40.0,
+          "FilterType": "GammaFilter"
+        },
+        "PostProcessingEnabled": false,
+        "Smoothing": 50.0,
+        "SoftBounds": true,
+        "SoftBoundRange": 5.0,
+        "AccelerationFilter": {
+          "FilterAdded": true,
+          "Enabled": false,
+          "Acceleration": 525.0,
+          "AccelerationTimeIncrement": 0.0118
+        },
+        "MaxInputRange": 5.0,
+        "ScalingRange": {
+          "Input": 5.0,
+          "Output": 100.0
+        },
+        "Gain": 40.0,
+        "IsEnabled": true
+      }
+    },
+    {
+      "SyncWithParentEffect": false,
+      "TypeName": "AudioEffect",
+      "Settings": {
+        "MaxOutputRange": 3.0,
+        "PreAmp": 1000.0,
+        "LowPassFrequency": 50.0,
+        "EnableDownSampling": false,
+        "DownSamplingFrequency": 30.0,
+        "CorrectionCurve": {
+          "GammaFilter": {
+            "GammaValue": 1.4,
+            "Threshold": 0,
+            "MinimumValue": 0,
+            "DeadZoneSmoothing": 40.0,
+            "FilterType": "GammaFilter"
+          },
+          "IsEnabled": true,
+          "FilterAdded": true
+        },
+        "Filter": {
+          "GammaValue": 1.4,
+          "Threshold": 0,
+          "MinimumValue": 0,
+          "DeadZoneSmoothing": 40.0,
+          "FilterType": "GammaFilter"
+        },
+        "PostProcessingEnabled": true,
+        "Gain": 74.0,
+        "IsEnabled": false
+      }
+    }
+  ],
+  "TargetGameFamily": 2,
+  "LastLoaded": "0001-01-01T00:00:00",
+  "Description": "Complete change of approach now that I know to set the maximum Pitch and Roll to 180 degrees. Also set the output pitch to the measured (from the SimHub manual control window) angles the H3R is capable of.\r\n\r\nV2.1 - Increases the amount of movement  on pitch and roll - make things a bit more aggressive.\r\nChange traction loss algorithm to lateral velocity.\r\n\r\nV2.2 \r\nIncrease DOF H3 movement on roll.  Increasing Motion Scaling->Motion Range from 18->25 for Roll and Roll Rate.  The roll effect  was feeling a little anemic.\r\n\r\nV2.3\r\nExported the file using SimHub V9.9.11 to upgrade to the latest lua file format.\r\nPitch Effect \r\n- Change MaxInputRange from 180 to 90 - you can't go outside the range -90 to 90 (duh!). \r\n- Change MaxOutputRange from 24 to 25 to match Pitch Rate effect.\r\nSurge to Pitch Effect\r\n- Increase Acceleration Input Limit (MaxInputRangeNegative) from 10 to 40 m/s.  Change output value from 9.5 to 17.\r\n- Increase Deceleration Input Limit (MaxInputRangePositive) from 25 to 45 m/s.  Change output value from 9.5 to 17.",
+  "Name": "DOFReality H3R FA-18C V2.3",
+  "ProfileId": "d857311b-d340-46ae-8250-d350a57cd928",
+  "GameCode": "DCS",
+  "CarChoice": null
+}
