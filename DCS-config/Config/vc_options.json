@@ -1,0 +1,8 @@
+{
+ "master_volume": 80,
+ "show_active_users_only": false,
+ "show_guard_encryption": false,
+ "show_user_volume": false,
+ "turn_radio_on_when_in_cockpit": true,
+ "intercom_mic_mode_forced_ptt": true
+}
